@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GyverDrink_VICLER_MOD.ino" />
+    <None Include="a_display.ino" />
+    <None Include="b_setup.ino" />
+    <None Include="c_loop.ino" />
+    <None Include="d_func.ino" />
+    <None Include="eeprom.ino" />
+    <None Include="e_control.ino" />
+    <None Include="tm1637.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.GyverDrink_VICLER_MOD.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\buttonMinim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\encUniversalMinim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GyverStepper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ServoSmoothMinim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\timer2Minim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Adafruit_TiCoServo\Adafruit_TiCoServo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Adafruit_TiCoServo\known_16bit_timers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GyverTimers\GyverTimers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GyverTM1637\GyverTM1637.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\microLED\microLED.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\microLED\ws2812_send.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\microWire\microWire.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\SSD1306Ascii.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\SSD1306AsciiAvrI2c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\SSD1306AsciiSoftSpi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\SSD1306AsciiSpi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\SSD1306AsciiWire.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\SSD1306init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Adafruit5x7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\allFonts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Arial14.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Arial_bold_14.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Battery10x17.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Battery12x22.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Battery19x9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Battery219x9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Battery22x12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\BIgIcon36x40.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\BigPostfix30x16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\BigPostfix30x16_2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\CalBlk36.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Callibri10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Callibri11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Callibri11_bold.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Callibri11_italic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Callibri14.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Callibri15.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\CalLite24.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\CenturyGothic10x16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Cooper19.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Cooper21.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Cooper26.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Corsiva_12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\cp437font8x8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\FixedNum30x40.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\FixedNum30x40_2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\fixednums15x31.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\fixednums7x15.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\fixednums8x16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\fixed_bold10x15.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\font5x7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\font8x8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Iain5x7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\iBattery12x19.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\lcd5x7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\lcdnums12x16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\lcdnums14x24.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Mode12x26.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Mode13x28.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Mode213x28.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\MonoNum22x32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\MonoNum30x40.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\newbasic3x5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\ProgBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Roosewood22.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Roosewood26.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Stang5x7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\System5x7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\System5x7R.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\SystemFont5x7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\TimesNewRoman13.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\TimesNewRoman13_italic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\TimesNewRoman16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\TimesNewRoman16_bold.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\TimesNewRoman16_italic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\utf8font10x16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Verdana12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Verdana12_bold.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Verdana12_italic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Verdana_digits_24.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Vicler8x16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Wendy3x5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\X11fixed7x14.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\X11fixed7x14B.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\ZevvPeep8x16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\utility\AvrI2c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\utility\DigitalOutput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Adafruit_TiCoServo\Adafruit_TiCoServo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GyverTimers\GyverTimers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GyverTM1637\GyverTM1637.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\microWire\microWire.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SSD1306Ascii\src\SSD1306Ascii.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C5F80730-F44F-4478-BDAE-6634EFC2CA88}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectName>GyverDrink_VICLER_MOD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>
+    </PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>
+    </PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>
+    </PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>
+    </PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\GyverDrink_VICLER_MOD;$(ProjectDir)..\..\..\..\..\..\Projects\Arduino\libraries\Servo\src;$(ProjectDir)..\..\..\..\..\..\Install\Development\Arduino\IDE\hardware\arduino\avr\libraries\EEPROM\src;$(ProjectDir)..\..\..\..\..\..\Install\Development\Arduino\IDE\hardware\arduino\avr\cores\arduino;$(ProjectDir)..\..\..\..\..\..\Install\Development\Arduino\IDE\hardware\arduino\avr\variants\eightanaloginputs;$(ProjectDir)..\..\..\..\..\..\Install\Development\Arduino\IDE\hardware\tools\avr\\lib\gcc\avr\7.3.0\include;$(ProjectDir)..\..\..\..\..\..\Install\Development\Arduino\IDE\hardware\tools\avr\avr\include;$(ProjectDir)..\..\..\..\..\..\Install\Development\Arduino\IDE\hardware\tools\avr\\lib\gcc\avr\7.3.0\include;$(ProjectDir)..\..\..\..\..\..\Install\Development\Arduino\IDE\hardware\tools\avr\avr\include-fixed;$(ProjectDir)..\..\..\..\..\..\Install\Development\Arduino\IDE\hardware\tools\avr\avr\include\avr;$(ProjectDir)..\..\..\..\..\..\Install\Development\Arduino\IDE\hardware\tools\avr\lib\gcc\avr\4.9.2\include;$(ProjectDir)..\..\..\..\..\..\Install\Development\Arduino\IDE\hardware\tools\avr\lib\gcc\avr\4.9.2\include;$(ProjectDir)..\..\..\..\..\..\Install\Development\Arduino\IDE\hardware\tools\avr\lib\gcc\avr\4.9.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ProjectDir)__vm\.GyverDrink_VICLER_MOD.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PreprocessorDefinitions>__AVR_atmega328p__;__AVR_ATmega328P__;__AVR_ATmega328p__;F_CPU=16000000L;ARDUINO=108013;ARDUINO_AVR_NANO;ARDUINO_ARCH_AVR;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="VisualMicro" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="a_display.ino">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="b_setup.ino">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="c_loop.ino">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="d_func.ino">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="eeprom.ino">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="e_control.ino">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="GyverDrink_VICLER_MOD.ino">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="tm1637.ino">
+      <FileType>CppCode</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Config.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\Adafruit_TiCoServo\Adafruit_TiCoServo.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\Adafruit_TiCoServo\known_16bit_timers.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\buttonMinim.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\encUniversalMinim.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\GyverStepper.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\GyverTimers\GyverTimers.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\GyverTM1637\GyverTM1637.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\microLED\microLED.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\microLED\ws2812_send.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\microWire\microWire.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\ServoSmoothMinim.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Adafruit5x7.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\allFonts.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Arial14.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Arial_bold_14.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Battery10x17.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Battery12x22.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Battery19x9.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Battery219x9.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Battery22x12.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\BIgIcon36x40.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\BigPostfix30x16.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\BigPostfix30x16_2.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\CalBlk36.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Callibri10.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Callibri11.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Callibri11_bold.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Callibri11_italic.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Callibri14.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Callibri15.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\CalLite24.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\CenturyGothic10x16.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Cooper19.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Cooper21.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Cooper26.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Corsiva_12.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\cp437font8x8.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\FixedNum30x40.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\FixedNum30x40_2.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\fixednums15x31.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\fixednums7x15.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\fixednums8x16.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\fixed_bold10x15.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\font5x7.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\font8x8.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Iain5x7.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\iBattery12x19.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\lcd5x7.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\lcdnums12x16.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\lcdnums14x24.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Mode12x26.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Mode13x28.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Mode213x28.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\MonoNum22x32.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\MonoNum30x40.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\newbasic3x5.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\ProgBar.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Roosewood22.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Roosewood26.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Stang5x7.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\System5x7.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\System5x7R.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\SystemFont5x7.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\TimesNewRoman13.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\TimesNewRoman13_italic.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\TimesNewRoman16.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\TimesNewRoman16_bold.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\TimesNewRoman16_italic.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\utf8font10x16.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Verdana12.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Verdana12_bold.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Verdana12_italic.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Verdana_digits_24.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Vicler8x16.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\Wendy3x5.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\X11fixed7x14.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\X11fixed7x14B.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\fonts\ZevvPeep8x16.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\SSD1306Ascii.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\SSD1306AsciiAvrI2c.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\SSD1306AsciiSoftSpi.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\SSD1306AsciiSpi.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\SSD1306AsciiWire.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\SSD1306init.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\utility\AvrI2c.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\SSD1306Ascii\src\utility\DigitalOutput.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="src\timer2Minim.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="__vm\.GyverDrink_VICLER_MOD.vsarduino.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Adafruit_TiCoServo\Adafruit_TiCoServo.cpp" />
+    <ClCompile Include="src\GyverTimers\GyverTimers.cpp" />
+    <ClCompile Include="src\GyverTM1637\GyverTM1637.cpp" />
+    <ClCompile Include="src\microWire\microWire.cpp" />
+    <ClCompile Include="src\SSD1306Ascii\src\SSD1306Ascii.cpp" />
+  </ItemGroup>
+  <PropertyGroup>
+    <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
