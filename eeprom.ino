@@ -10,7 +10,7 @@ void readEEPROM() {
   if (EEPROM.read(100) != EEPROM_KEY) {
     EEPROM.write(100, EEPROM_KEY);
     resetEEPROM();
-    serviceBoot = true;
+    firstStartUp = true;
   }
 
 #ifdef TM1637
